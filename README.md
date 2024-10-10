@@ -21,3 +21,10 @@ Cassette Player, 3: Chain Saw, 4: Church, 5:French Horn, 6: Garbage Truck,
  golf ball        | 0.900  | 0.919 |   0.912   | 0.513 | 0.763 |   0.638   | 0.228 | 0.421 |   0.314   | 0.347 | 0.485 |   0.418  | 
  parachute        | 0.925  | 0.943 |   0.938   | 0.617 | 0.870 |   0.755   | 0.451 | 0.641 |   0.557   | 0.582 | 0.675 |   0.639  | 
  all classes      | .882   | 0.949 |   0.915   | 0.376 | 0.870 |   0.620   | 0.047 | 0.680 |   0.353   | 0.086 | 0.704 |   0.437  | 
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
