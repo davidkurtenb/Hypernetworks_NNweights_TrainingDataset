@@ -8,7 +8,7 @@ Cassette Player, 3: Chain Saw, 4: Church, 5:French Horn, 6: Garbage Truck,
 7: Gas Pump, 8: Golf Ball, and 9: Parachute
 
  | class          |          accuracy          |          precision        |           recall          |         f1score          |
- | Class |  Accuracy - min   |  Accuracy - max  |   Accuracy - average  |  min  |  max  |  average  |  min  |  max  |  average  |  min  |  max  |  average |
+ | Class |  Accuracy min   |  Accuracy max  |   Accuracy avg  |  Precision min  |  Precision max  |  Precision avg  |  Recall min  |  Recall max  |  Recall avg  |  F1 min  |  F1 max  |  F1 avg |
  | -------------- | ------ | ----- | --------- |-------|-------|-----------|-------|-------|-----------|------|-------|-----------|
  tench            | 0.935  | 0.949 |   0.943   | 0.702 | 0.848 |   0.780   | 0.488 | 0.680 |   0.592   | 0.606 | 0.704 |   0.672  | 
  english springer | 0.901  | 0.920 |   0.912   | 0.510 | 0.720 |   0.611   | 0.228 | 0.496 |   0.365   | 0.346 | 0.527 |   0.452  | 
