@@ -7,7 +7,6 @@ the Imagenette 320px V2 dataset with classes 0: Tench, 1: English Springer, 2:
 Cassette Player, 3: Chain Saw, 4: Church, 5:French Horn, 6: Garbage Truck,
 7: Gas Pump, 8: Golf Ball, and 9: Parachute
 
- | class          |          accuracy          |          precision        |           recall          |         f1score          |
  | Class |  Accuracy min   |  Accuracy max  |   Accuracy avg  |  Precision min  |  Precision max  |  Precision avg  |  Recall min  |  Recall max  |  Recall avg  |  F1 min  |  F1 max  |  F1 avg |
  | -------------- | ------ | ----- | --------- |-------|-------|-----------|-------|-------|-----------|------|-------|-----------|
  tench            | 0.935  | 0.949 |   0.943   | 0.702 | 0.848 |   0.780   | 0.488 | 0.680 |   0.592   | 0.606 | 0.704 |   0.672  | 
