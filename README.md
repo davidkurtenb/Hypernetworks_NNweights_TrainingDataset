@@ -6,19 +6,19 @@
 
 This repository contains a dataset of neural networks, designed for the purpose of hypernetworks research. The dataset includes 10,610 neural networks trained for binary image classification separated into 10 classes, such that each class contains 1,061 different neural networks that can identify a certain ImageNette V2 class from all other classes. The classification models used a LeNet-5 framework with each model containing 91,481 parameters. A computing cluster of over 10,000 cores was used to generate the dataset. Basic classification results show that the neural networks can be classified with accuracy of 87%, indicating that the differences between the neural networks can be identified by supervised machine learning algorithms in accuracy better than mere chance. The ultimate purpose of the dataset is to enable hypernetworks research. 
 
-Specifications
+# **Specifications**
 This repository contains the indivdual model files, consolidated listing of parameters, and training/validation loss and accuracy plots for each model.
 
-Directory Listing
-Model Weights - contains individual model paratmeters saved ad hdf5 files
-Plots - contains plots for training/validation loss and accuracy for each model 
-Pickle Files - consolidated parameters saved into a single file for all 10,610 models. 
-Modelwise - parameters by model in dictionary format
-Keys: model, parameters_by_layer, parameters_flat 
-Example: {'model': 'church_649', 'parameters_by_layer': {'conv2d/conv2d/bias:0': tensor([ 0.0572, 0.0594, -0.0007, -0.0440, 0.0227, 0.0155]), 'conv2d/conv2d/kernel:0': tensor([[[[ 2.0242e-01, -8.1340e-02, -1.1604e-01, 6.9871e-02, -1.4720e-01,...}, 'parameters_flat': tensor([ 0.0572, 0.0594, -0.0007, ..., 0.2816, 0.3210, -0.1104])}
-Layerwise - parameters by layer for all models in a given class
-Keys: class, parameters 
-Example: {'class': 'cassette_player', 'parameters': {'conv2d': [array([ 2.81625651e-02, -7.09968358e-02, -1.40507936e-01, -9.32385959e-03, -1.10361770e-01, 1.00062557e-01, -3.23645794e-03, 1.01349339e-01, 5.19516990e-02, -8.61838460e-02, 1.42671123e-01, -1.31018981e-01,...'dense_1': [array([-0.04802695, -0.26561895, -0.13131969,  0.13551578, -0.14921758, -0.15271764,  0.226575...}
+# **Directory Listing**
+*Model Weights* - contains individual model paratmeters saved ad hdf5 files
+*Plots* - contains plots for training/validation loss and accuracy for each model 
+*Pickle Files* - consolidated parameters saved into a single file for all 10,610 models. 
+>Modelwise - parameters by model in dictionary format
+>>Keys: model, parameters_by_layer, parameters_flat 
+>>>Example: {'model': 'church_649', 'parameters_by_layer': {'conv2d/conv2d/bias:0': tensor([ 0.0572, 0.0594, -0.0007, -0.0440, 0.0227, 0.0155]), 'conv2d/conv2d/kernel:0': tensor([[[[ 2.0242e-01, -8.1340e-02, -1.1604e-01, 6.9871e-02, -1.4720e-01,...}, 'parameters_flat': tensor([ 0.0572, 0.0594, -0.0007, ..., 0.2816, 0.3210, -0.1104])}
+>Layerwise - parameters by layer for all models in a given class
+>>Keys: class, parameters 
+>>>Example: {'class': 'cassette_player', 'parameters': {'conv2d': [array([ 2.81625651e-02, -7.09968358e-02, -1.40507936e-01, -9.32385959e-03, -1.10361770e-01, 1.00062557e-01, -3.23645794e-03, 1.01349339e-01, 5.19516990e-02, -8.61838460e-02, 1.42671123e-01, -1.31018981e-01,...'dense_1': [array([-0.04802695, -0.26561895, -0.13131969,  0.13551578, -0.14921758, -0.15271764,  0.226575...}
 
 
 | Class | Accuracy Min | Accuracy Max | Accuracy Avg | Precision Min | Precision Max | Precision Avg | Recall Min | Recall Max | Recall Avg | F1 Min | F1 Max | F1 Avg |
