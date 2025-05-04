@@ -1,4 +1,4 @@
-This repository contains the code to develop, analyze, classify, and condense the hdf5 model weight files. 
+## This repository contains the code to develop, analyze, classify, and condense the hdf5 model weight files. 
 
 ## **The data is avaialable at https://zenodo.org/uploads/15336440**
 
