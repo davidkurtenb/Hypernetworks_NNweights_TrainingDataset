@@ -1,6 +1,6 @@
 # Hypernetworks Neural Network Weights Training Dataset
 ## NOTICE
-This repository only contains the codebase to develop, analyze, classify, and compile the LeNet-5 models. The data is available for download at ##https://huggingface.co/datasets/dk4120/neural_network_parameter_dataset_lenet5_binary/tree/main
+This repository only contains the codebase to develop, analyze, classify, and compile the LeNet-5 models. The data is available for download at https://huggingface.co/datasets/dk4120/neural_network_parameter_dataset_lenet5_binary/tree/main
 ## Summary
 This repository contains a dataset of neural networks, designed for the purpose of hypernetworks research. The dataset includes 10,610 neural networks trained for binary image classification separated into 10 classes, such that each class contains 1,061 different neural networks that can identify a certain ImageNette V2 class from all other classes. The classification models used a LeNet-5 framework with each model containing 91,481 parameters. A computing cluster of over 10,000 cores was used to generate the dataset. Basic classification results show that the neural networks can be classified with accuracy of 87%, indicating that the differences between the neural networks can be identified by supervised machine learning algorithms in accuracy better than mere chance. The ultimate purpose of the dataset is to enable hypernetworks research.
 
